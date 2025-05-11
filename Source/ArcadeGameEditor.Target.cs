@@ -9,7 +9,8 @@ public class ArcadeGameEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V4;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3;
-		ExtraModuleNames.Add("ArcadeGame");
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
+        bOverrideBuildEnvironment = true;
+        ExtraModuleNames.Add("ArcadeGame");
 	}
 }
